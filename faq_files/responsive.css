@@ -1,0 +1,575 @@
+@media all and (max-width:767px) {
+  .Header .Search {
+    display: none;
+  }
+
+  .Header {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+
+  .Header .Logo {
+    margin-bottom: 10px;
+  }
+
+  .Header .Menu {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px 0px;
+  }
+
+  .Header .Menu ul li a {
+    font-size: .9rem;
+    padding: 5px 10px;
+    background-color: #189383;
+    color: white;
+    margin: 0 5px;
+  }
+
+  .SliderArea .Slider .Columns-1 {
+    align-items: center;
+  }
+
+  .SliderArea .Slider .Columns-1, .SliderArea .Slider .Columns-2 {
+    flex-wrap: wrap;
+  }
+
+  .Padding {
+    padding: 50px 20px;
+  }
+
+  .SliderArea {
+    text-align: center;
+    padding: 50px 20px;
+  }
+
+  .SliderArea .Slider .Columns-1 {
+    flex-direction: column-reverse;
+  }
+
+  .SliderArea .Slider .Columns-1 .SliderText02 {
+    font-size: 1.5rem;
+  }
+
+  .SliderArea .Slider .Columns-2 .Rows {
+    margin: 2.5px;
+    flex-basis: calc(100% / 3 - 5px);
+  }
+
+  .SliderArea .Slider .Columns-2 a {
+    padding: 5px;
+    flex-direction: column;
+    font-size: .9rem;
+  }
+
+  .SliderArea .Slider .Columns-2 img {
+    width: 30px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+
+  .SliderArea .Slider .Columns-2 {
+    align-items: flex-start;
+  }
+
+  .SliderArea .Slider .Columns-1 .Rows:nth-child(2) {
+    margin-bottom: 30px;
+  }
+
+  .SliderArea .Slider .Columns-1 .Rows-2 {
+    display: none;
+    width: 250px;
+  }
+
+  .SliderArea .Slider .Columns-1 .SliderText01 {
+    font-size: 1rem;
+  }
+
+  .SliderArea .Slider .Columns-1 .SliderText03 {
+    font-size: 1rem;
+  }
+
+  .Logo {
+    text-align: center;
+  }
+
+  .Logo img {
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .br_pc {
+    display: none;
+  }
+
+  .br_m {
+    display: block;
+  }
+
+  .SliderArea .Slider .Columns-2 {
+    margin-top: 30px;
+  }
+
+  .InfoArea .Info {
+    justify-content: space-between;
+  }
+
+  .InfoArea .Info .Rows .InfoText02, .InfoArea .Info .Rows .InfoText02 a {
+    margin: 10px 0px 0px 0px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .InfoArea .Info .Rows .InfoText01 img {
+    width: 30px;
+    margin-bottom: 10px;
+  }
+
+  .InfoArea .Info .Rows .InfoText03 {
+    font-size: 1.2rem;
+  }
+
+  .InfoArea .Info .Rows .InfoText01 {
+    font-size: .9rem;
+  }
+
+  .InfoArea .Info .Rows .InfoText01 {
+    flex-direction: column;
+  }
+
+  .InfoArea .Info .Rows .InfoText03 a {
+    padding: 5px;
+  }
+
+  .InfoArea .Info .Rows .InfoText02, .InfoArea .Info .Rows .InfoText02 a {
+    font-size: 1rem;
+  }
+
+  .InfoArea .Info .Rows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    margin: 2.5px;
+    flex-basis: calc(100% / 2 - 5px);
+  }
+
+  .InfoArea .Info .Rows .InfoText01 img {
+    margin-right: 0px;
+  }
+
+  .InfoArea .Info .Rows .InfoText03 a, .InfoArea .Info .Rows .InfoText03 {
+    display: none;
+    font-size: 1rem;
+    margin-top: 20px;
+  }
+
+  .AlertBox {
+    display: block;
+  }
+
+  .MainInfo .AlertBox {
+    color: #3b1a1d;
+    background-color: #f9e10b;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 2.5px 0px 2.5px;
+    font-weight: 500;
+  }
+
+  .ServiceArea .ServiceList .Rows {
+    margin: 0 5px;
+  }
+
+  .HelpArea .HelpList {
+    flex-wrap: wrap;
+  }
+
+  .HelpArea .HelpList .Rows {
+    margin: 5px;
+    flex-basis: calc(100% / 2 - 10px);
+  }
+
+  .ReviewList .Rows {
+    flex-basis: 100%;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .ReviewList .Rows:last-child {
+    margin-bottom: 0px;
+  }
+
+  .KakaoList {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Space {
+    display: block;
+    padding-top: 50px;
+    border-bottom: 1px solid black;
+  }
+
+  .KakaoList .Rows {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+
+  .KakaoList .Rows:last-child {
+    margin-bottom: 0px;
+  }
+
+  .KakaoList .Rows img {
+    width: 200px;
+  }
+
+  .KakaoList .Rows p {
+    width: 200px;
+    margin: 5px auto 0px auto;
+    padding: 10px;
+    font-size: .9rem;
+  }
+
+  .KakaoList .Rows b {
+    font-size: .9rem;
+  }
+
+  .KakaoHow {
+    font-size: 1rem;
+  }
+
+  .ServiceT {
+    font-size: 1.7rem;
+  }
+
+  .ServiceD {
+    font-size: 1rem;
+  }
+
+  .ServiceArea .ServiceList {
+    flex-wrap: wrap;
+  }
+
+  .ServiceArea .ServiceList {
+    justify-content: center;
+  }
+
+  .ServiceArea .ServiceList .Rows {
+    padding: 10px;
+    margin: 5px;
+    flex-basis: calc(100% / 3 - 10px);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ServiceArea .ServiceList .Rows .ServiceListText01 {
+    font-size: .9rem;
+    border-radius: 0px;
+    background-color: unset;
+    padding: 0px;
+    order: 2;
+    margin: 10px 0px 5px 0px;
+    font-weight: 500;
+  }
+
+  .ServiceArea .ServiceList .Rows .ServiceListText02 {
+    margin: 0px;
+    order: 1;
+  }
+
+  .ServiceArea .ServiceList .Rows .ServiceListText02 img {
+    width: 50px;
+  }
+
+  .ServiceArea .ServiceList .Rows .ServiceListText03 {
+    order: 3;
+    font-size: 1rem;
+  }
+
+  .ServiceArea .ServiceList .Rows p {
+    display: none;
+  }
+
+  .OptionHead .Rows-4, .Rolling .Rows-4 {
+    display: none;
+  }
+
+  .Rolling li .Rows, .OptionHead .Rows {
+    font-size: .8rem;
+  }
+
+  .Rolling li {
+    font-size: .8rem;
+  }
+
+  .LiveStream {
+    padding: 20px 0px;
+    border-radius: 30px;
+  }
+
+  .Rolling li .Rows-5 {
+    margin: 0 5px;
+  }
+
+  .LiveArea .Live .LiveT {
+    font-size: 1.7rem;
+  }
+
+  .About {
+    flex-wrap: wrap;
+  }
+
+  .About .Rows {
+    padding: 30px 20px;
+    margin: 0px 0px 30px 0px;
+    flex-basis: 100%;
+  }
+
+  .About .Rows:last-child {
+    margin: 0px;
+  }
+
+  .About .Rows img {
+    width: 70px;
+  }
+
+  .About .Rows .ABThumb {
+    min-height: unset;
+  }
+
+  .About .Rows .ABText02 {
+    font-size: .9rem;
+  }
+
+  .BreadArea {
+    padding: 80px 20px;
+  }
+
+  .AboutMoreArea .AboutMore {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .AboutMoreArea .AboutMore .Rows {
+    flex-basis: 100%;
+  }
+
+  .AboutMoreArea .AboutMore .Rows:nth-child(1) {
+    margin-bottom: 30px;
+  }
+
+  .Header .Menu ul .Active a {
+    background-color: black;
+  }
+
+  .ProductArea .ProBest {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .ProductArea .ProBest .Rows {
+    flex-basis: 100%;
+  }
+
+  .ProductArea .ProBest .Rows img {
+    width: 150px;
+  }
+
+  .ProductArea .ProBest .Rows-1 {
+    padding: 30px 20px;
+  }
+
+  .ProductArea .ProBest .Rows-2 {
+    padding: 50px 0px 0px 0px;
+  }
+
+  .ProductArea .ProBest .Rows-2 .ProBestText02 {
+    font-size: 1.5rem;
+  }
+
+  .ProductArea .ProBest .Rows-2 .ProBestText03 {
+    font-size: 1rem;
+  }
+
+  .ProStep {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ProStep .Rows {
+    margin: 5px;
+    flex-basis: calc(100% / 3 - 10px);
+  }
+
+  .ProStep .Rows p {
+    font-size: .9rem;
+  }
+
+  .ProTip .Columns {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .ProTip .Number {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .ProTip .Columns {
+    margin-bottom: 30px;
+  }
+
+  .ProBottomArea .ProBottom .Rows-2 img {
+    width: 250px;
+  }
+
+  .ProBottomArea {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .RequestStep {
+    flex-wrap: wrap;
+  }
+
+  .RequestStep .Rows .RequestThumb img {
+    width: 250px;
+  }
+
+  .RequestStep .Rows {
+    margin: 0px 0px 30px 0px;
+    flex-basis: 100%;
+  }
+
+  .RequestStep .Rows:last-child {
+    margin-bottom: 0px;
+  }
+
+  .RequestStep .Rows .RequestDescr {
+    font-size: .9rem;
+  }
+
+  .RequestStep .Rows p {
+    font-size: .9rem;
+  }
+
+  .RequestStep .Rows .RequestNumber {
+    margin: 10px 0px 10px 0px;
+    font-size: 1.2rem;
+  }
+
+  .RequestAlertArea .RequestAlert .RequestATitle {
+    font-size: 1.5rem;
+  }
+
+  .accordion-list .accordion-name {
+    font-size: .9rem;
+  }
+
+  .accordion-list .accordion-item .accordion-desc {
+    padding: 20px;
+    font-size: .9rem;
+  }
+
+  .InfoText04 {
+    display: block;
+    margin-top: 10px;
+    font-size: .8rem;
+    font-weight: 500;
+  }
+
+  .InfoArea .Info .Rows-1 {
+    background-color: #2dc497;
+  }
+
+  .InfoArea .Info .Rows-2 {
+    background-color: #f9e10b;
+  }
+
+  .ProBottom {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ProBottom .Rows-1 .TE01 {
+    font-size: 1.5rem;
+  }
+
+  .ProBottom .Rows-1 {
+    margin-bottom: 30px;
+  }
+
+  .RequestAlertArea .RequestAlert{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .RequestAlertArea .RequestAlert .Rows .RequestAThumb img{
+    max-width: 50px;
+  }
+}
+
+/* Tablet (가로폭 768px 이상, 1023px 이하) */
+@media all and (min-width:768px) and (max-width:1023px) {
+  .br_pc {
+    display: none;
+  }
+
+  .br_m {
+    display: block;
+  }
+
+  .AlertBox {
+    display: none;
+  }
+
+  .Space {
+    display: none;
+  }
+
+  .InfoText04 {
+    display: none;
+  }
+}
+
+/* PC Desktop (가로폭 1024 이상) */
+@media all and (min-width:1024px) {
+  .br_pc {
+    display: block;
+  }
+
+  .br_m {
+    display: none;
+  }
+
+  .AlertBox {
+    display: none;
+  }
+
+  .Space {
+    display: none;
+  }
+
+  .InfoText04 {
+    display: none;
+  }
+
+  .AboutMoreArea .AboutMore .Rows a {
+    padding: 20px 50px;
+  }
+
+  .RequestAlertArea {
+    text-align: left;
+  }
+}
